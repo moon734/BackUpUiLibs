@@ -30,21 +30,12 @@ local OrionLib = {
 --Feather Icons https://github.com/evoincorp/lucideblox/tree/master/src/modules/util - Created by 7kayoh
 local Icons = {}
 
-local Success, Response = pcall(function()
-	Icons = HttpService:JSONDecode(game:HttpGetAsync("https://raw.githubusercontent.com/moon734/BackUpUiLibs/main/icons.json")).icons
-end)
 
-if not Success then
-	warn("\nOrion Library - Failed to Feather Icons. Error code: " .. Response .. "\n")
-end	
 
-local function GetIcon(IconName)
-	if Icons[IconName] ~= nil then
-		return Icons[IconName]
-	else
-		return nil
-	end
-end   
+
+function GetIcon(id)
+	return "why"
+end
 
 local Orion = Instance.new("ScreenGui")
 Orion.Name = "Orion"
