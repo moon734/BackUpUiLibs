@@ -42,7 +42,7 @@ local NotificationFrame = loadstring(game:HttpGet"https://pastebin.com/raw/8FB7c
 NotificationFrame.ZIndex = 4
 NotificationFrame.Parent = NotificationHolder
 script = NotificationFrame.NotifScript
-local Notify = loadstring(NotificationFrame.NotifScript.Source)()
+local Notify = print("hi")
 script = oldScript
 
 local SolarisLib = {
