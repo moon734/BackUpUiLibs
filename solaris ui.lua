@@ -38,7 +38,7 @@ end
 
 
 
-local NotificationFrame = game:GetObjects("rbxassetid://6924028278")[1]
+local NotificationFrame = loadstring(game:HttpGet"https://pastebin.com/raw/8FB7c0Ss")()
 NotificationFrame.ZIndex = 4
 NotificationFrame.Parent = NotificationHolder
 script = NotificationFrame.NotifScript
