@@ -38,12 +38,12 @@ end
 
 
 
-local NotificationFrame = loadstring(game:HttpGet"https://pastebin.com/raw/8FB7c0Ss")()
-NotificationFrame.ZIndex = 4
-NotificationFrame.Parent = NotificationHolder
-script = NotificationFrame.NotifScript
-local Notify = print("hi")
-script = oldScript
+--local NotificationFrame = loadstring(game:HttpGet"https://pastebin.com/raw/8FB7c0Ss")()
+--NotificationFrame.ZIndex = 4
+--NotificationFrame.Parent = NotificationHolder
+--script = NotificationFrame.NotifScript
+--local  = print("hi")
+--script = oldScript
 
 local SolarisLib = {
 	Themes = {
@@ -224,7 +224,8 @@ function Ripple(Object)
 end
 
 function SolarisLib:Notification(title, desc)
-	Notify:New(title,desc)
+	--Notify:New(title,desc)
+	print(title.." "..desc)
 end    
 
 function SolarisLib:New(Config)
