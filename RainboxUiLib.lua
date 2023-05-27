@@ -402,7 +402,8 @@ local FirstTab = false
 
             return buttonT
         end
-        function ContainerItems:Toggle(text, callback, default)
+        
+        function ContainerItems:Toggle(text, default, callback)
             local Toggled = false
             local toggleB = {}
             toggleB.Name = name
