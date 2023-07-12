@@ -38,11 +38,7 @@ end
 
 
 
-local NotificationFrame = game:GetObjects("rbxassetid://6924028278")[1]
-NotificationFrame.Parent = NotificationHolder
-script = NotificationFrame.NotifScript
-local Notify = loadstring(NotificationFrame.NotifScript.Source)()
-script = oldScript
+
 
 local SolarisLib = {
 	Themes = {
